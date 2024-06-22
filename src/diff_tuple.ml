@@ -2,7 +2,7 @@ open Base
 open Printf
 
 let create ?(inlined = false) tuple ~builder ~create_core =
-  let max, pos = Diffable.Tuples.max_supported in
+  let max, pos = Diffable0.Tuples.max_supported in
   let open (val builder : Builder.S) in
   let n = List.length tuple in
   if n > max

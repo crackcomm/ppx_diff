@@ -29,7 +29,7 @@ let create kind ~elt ~context =
            "Could not determine elt type for set diff. Please provide it manually")
   in
   let module_ =
-    let prefix = [ "Diffable"; "Set_diff" ] in
+    let prefix = [ "Diffable0"; "Set_diff" ] in
     let suffix =
       match stable_version with
       | None -> []

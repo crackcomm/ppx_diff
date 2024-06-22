@@ -40,7 +40,7 @@ let create
     value_diff
   in
   let module_ =
-    let prefix = [ "Diffable"; "Map_diff" ] in
+    let prefix = [ "Diffable0"; "Map_diff" ] in
     let suffix =
       match stable_version with
       | None -> []
